@@ -145,7 +145,7 @@ def update_writer(detail):
                 raise Exception('An account already exists with this email address.')
             else:
 
-@skygear.op("test-run-add", user_required=True)
+@skygear.op("test-run-tes-test", user_required=True)
 def update_writer(detail):
     with _get_engine().begin() as conn:
         trans = conn.begin()
