@@ -12,3 +12,11 @@ skygearCloud.op('op1', function(opts) {
     'status': 'ok'
   };
 });
+
+skygearCloud.op('op2', function(opts) {
+  console.log('op2');
+  console.log(opts);
+  return {
+    'status': 'ok'
+  };
+});
